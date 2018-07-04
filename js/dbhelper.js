@@ -26,7 +26,7 @@ class DBHelper {
       } else { // Oops!. Got an error from server.
         const error = (`Request failed. Returned status of ${xhr.status}`);
         callback(error, null);
-      }
+      } 
     };
     xhr.send();
   }
