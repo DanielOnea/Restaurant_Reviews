@@ -1,6 +1,5 @@
 # Restaurant Reviews
 
-Restaurant_Reviews
 
 In Restaurant Reviews project, I incrementally converted a static webpage to a mobile-ready web application. 
 In Stage One, I took a static design that lacks accessibility and converted to be responsive on different sized displays and accessible for screen reader use. I also added a service worker to begin the process of creating a seamless offline experience for my users. 
@@ -9,7 +8,7 @@ In Stage Three I added a form to allow users to create their own reviews. If the
 
 ## Overview
 
- The webiste retrieves data about restaurants from a server. The restaurants' data contain rating information about restaurants. The data main structure and images of the website is persisted in `cache` using a `service worker` and the restaurant information/list is stored in `indexedDB` to achieve a good Offline first experience. Furthermore, the design is responsive, to adjust properly in most/all screen displays. And finally, optimizations have been done based on results from `lighthouse` to ensure high score of accessibility.
+ The website retrieves data about restaurants from a server. The restaurants' data contain rating information about restaurants. The data main structure and images of the website is persisted in `cache` using a `service worker` and the restaurant information/list is stored in `indexedDB` to achieve a good Offline first experience. Furthermore, the design is responsive, to adjust properly in most/all screen displays. And finally, optimizations have been done based on results from `lighthouse` to ensure high score of accessibility.
 
 ### How to start
 
