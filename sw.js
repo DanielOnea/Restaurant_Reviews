@@ -31,7 +31,7 @@ self.addEventListener('install', function(event) {
             return cache.addAll(cachedArray);
         })
         .then(function() {
-            console.log('installation complete');
+            console.log('installation complete'); 
         })
     );
 });
